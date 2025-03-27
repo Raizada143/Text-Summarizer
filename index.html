@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Summarizer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        textarea {
+            width: 80%;
+            height: 150px;
+        }
+        select, input {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Text Summarizer (Text / PDF / Word)</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <textarea name="text" placeholder="Enter text here...">{{ text }}</textarea><br><br>
+
+        <label>OR Upload File (PDF/DOCX):</label>
+        <input type="file" name="file"><br><br>
+
+        <label>Select Summarization Type:</label>
+        <select name="method">
+            <option value="extractive">Extractive (Sentence Selection)</option>
+            <option value="abstractive">Abstractive (AI-Generated)</option>
+        </select><br><br>
+
+        <input type="submit" value="Summarize">
+    </form>
+
+    <h3>Summary:</h3>
+    <p>{{ summary }}</p>
+</body>
+</html>
