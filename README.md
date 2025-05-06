@@ -4,36 +4,37 @@ A simple and effective web application that summarizes large texts into short, m
 
 🚀 Features:
 
-✅ Extractive Summarization
-✅ Abstractive Summarization (using a pretrained NLP model)
-✅ Upload support for `.txt`, `.pdf`, and `.docx` files
-✅ Clean, responsive UI with HTML/CSS/Bootstrap
-✅ Deployed on Render / Vercel / Heroku
+✅ Extractive Summarization <br>
+✅ Abstractive Summarization (using a pretrained NLP model) <br>
+✅ Upload support for `.txt`, `.pdf`, and `.docx` files <br>
+✅ Clean, responsive UI with HTML/CSS/Bootstrap <br>
+✅ Deployed on Render / Vercel / Heroku <br>
 
 🛠️ Tech Stack:
 
-Frontend:- HTML, CSS, Bootstrap
-Backend:- Python (Flask / FastAPI)
-NLP Libraries:- 
-  - transformers
-  - nltk / spacy
-  - sumy or other extractive tools
-File Parsing:- PyMuPDF,python-docx
-IDE:- Visual Studio Code
+Frontend:- HTML, CSS, Bootstrap <br>
+Backend:- Python (Flask / FastAPI)<br>
+NLP Libraries:- <br>
+  - transformers<br>
+  - nltk / spacy<br>
+  - sumy or other extractive tools <br>
+  
+File Parsing:- PyMuPDF,python-docx<br>
+IDE:- Visual Studio Code<br>
 
 📁 Folder Structure:
 
 summariser/
-├── static/
-│ └── styles.css
-├── templates/
-│ └── index.html
-├── uploads/
-│ └── (uploaded files)
-├── app.py
-├── summarizer.py
-├── requirements.txt
-└── README.md
+├── static/ <br>
+│ └── styles.css <br>
+├── templates/ <br>
+│ └── index.html <br>
+├── uploads/ <br>
+│ └── (uploaded files) <br>
+├── app.py <br>
+├── summarizer.py <br>
+├── requirements.txt <br>
+└── README.md<br>
 
 ⚙️ How to Run the Project Manually⚙️ How to Run the Project Manually
 1. Clone the Repository
@@ -48,11 +49,13 @@ summariser/
 4. Run the Application
 
 🤝 Contributing
+
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 📄 License
+
 MIT License
 
-🙋‍♂️ Author
-Shekhar Suman
-MCA Student, Amity University
+🙋‍♂️ Author <br>
+Shekhar Suman <br>
+MCA Student, Amity University <br>
